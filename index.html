@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Roulette</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h1>Design Roulette</h1>
+    <p>F5 to reroll</p>
+    <div class="roulette-container">
+        <div class="roulette-box" id="card1">-</div>
+        <div class="roulette-box" id="card2">-</div>
+    </div>
+    <div class="picks-container">
+        <h2>Your picks:</h2>
+        <div class="picks-grid">
+            <div class="picks-item">
+                <p>Business Type:</p>
+                <p id="businessType">-</p>
+            </div>
+            <div class="picks-item">
+                <p>Theme:</p>
+                <p id="theme">-</p>
+            </div>
+            <div class="picks-item">
+                <p>Primary Color:</p>
+                <p id="primaryColor">-</p>
+            </div>
+            <div class="picks-item">
+                <p>Font:</p>
+                <p id="font">-</p>
+            </div>
+            <div class="picks-item">
+                <p>Illustration Style:</p>
+                <p id="illustrationStyle">-</p>
+            </div>
+        </div>
+    </div>    
 
+    <div id="finalMessage" style="display: none;">
+        <h2>Good Luck with Designing!</h2>
+        <button id="rerollButton">Reroll</button>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
